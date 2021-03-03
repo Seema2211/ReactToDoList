@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+input {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+	margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 50%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+button{
+  font-size: 15px;
+  color: white;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  background: #0a610e;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 550px;
+  margin-top: 10px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+h1{
+  text-align: center;
+}
+.btn-delete{
+  font-size: 15px;
+  color: white;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  background: #a11420;
+  margin-bottom: 25px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 10px;
+}

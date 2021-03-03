@@ -1,3 +1,9 @@
+body{
+  background-color: #0f0f0f;
+  color: white;
+  font-size: 20px;
+}
+
 .App {
   text-align: center;
 }
@@ -14,8 +20,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ 
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,9 +29,35 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.input {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+	margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 50%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+.input-checkbox{
+  margin-right: 10px;
+}
+.btn-submit{
+  font-size: 15px;
+  color: white;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  background: #0a610e;
+  margin-bottom: 25px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 550px;
+  margin-top: 10px;
 }
 
 @keyframes App-logo-spin {
